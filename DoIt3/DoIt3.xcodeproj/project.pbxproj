@@ -13,6 +13,8 @@
 		987B25802685610600A9323B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987B257E2685610600A9323B /* Main.storyboard */; };
 		987B25822685610700A9323B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987B25812685610700A9323B /* Assets.xcassets */; };
 		987B25852685610700A9323B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987B25832685610700A9323B /* LaunchScreen.storyboard */; };
+		987B258E2685645800A9323B /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 987B258C2685645800A9323B /* lamp_off.png */; };
+		987B258F2685645900A9323B /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 987B258D2685645800A9323B /* lamp_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		987B25812685610700A9323B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		987B25842685610700A9323B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		987B25862685610700A9323B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		987B258C2685645800A9323B /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		987B258D2685645800A9323B /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				987B25782685610600A9323B /* AppDelegate.swift */,
 				987B257A2685610600A9323B /* SceneDelegate.swift */,
 				987B257C2685610600A9323B /* ViewController.swift */,
+				987B258C2685645800A9323B /* lamp_off.png */,
+				987B258D2685645800A9323B /* lamp_on.png */,
 				987B257E2685610600A9323B /* Main.storyboard */,
 				987B25812685610700A9323B /* Assets.xcassets */,
 				987B25832685610700A9323B /* LaunchScreen.storyboard */,
@@ -126,7 +132,9 @@
 			files = (
 				987B25852685610700A9323B /* LaunchScreen.storyboard in Resources */,
 				987B25822685610700A9323B /* Assets.xcassets in Resources */,
+				987B258F2685645900A9323B /* lamp_on.png in Resources */,
 				987B25802685610600A9323B /* Main.storyboard in Resources */,
+				987B258E2685645800A9323B /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
