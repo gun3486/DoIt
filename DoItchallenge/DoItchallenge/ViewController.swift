@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     @IBAction func btnPrev(_ sender: UIButton) {
         imgNum = imgNum - 1
         
+        //첫 번째 그림에서 이전버튼을 누르면 마지막사진으로 이동
         if (imgNum < 0){
             imgNum = imgName.count - 1
         }
@@ -33,7 +34,7 @@ class ViewController: UIViewController {
     
     @IBAction func btnNext(_ sender: UIButton) {
         imgNum = imgNum + 1
-        
+        //마지막 그림에서 다음을 누르면 첫 번째 그림으로 이동
         if (imgNum >= imgName.count){
             imgNum = 0
         }
