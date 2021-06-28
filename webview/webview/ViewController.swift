@@ -28,16 +28,22 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         myMap.showsUserLocation = true
     }
 
-    @IBAction func sgChangeLocation(_ sender: UISegmentedControl) {
-        
-    }
     
-    func goLocation(latitudeValue: CLLocationDegrees, longitudeValue: CLLocationDegrees, delta span: Double) {
-        
-        let pLocation = CLLocationCoordinate2D(latitude: latitudeValue,longitude: longitudeValue)
+    
+    func goLocation(latitudeValue: CLLocationDegrees, longitudeValue : CLLocationDegrees, delta span :Double)-> CLLocationCoordinate2D {
+        let pLocation = CLLocationCoordinate2DMake(latitudeValue, longitudeValue)
         let spanValue = MKCoordinateSpan(latitudeDelta: span, longitudeDelta: span)
         let pRegion = MKCoordinateRegion(center: pLocation, span: spanValue)
         myMap.setRegion(pRegion, animated: true)
+        return pLocation
+    }
+    
+    func setAnnotation(latitudeValue: CLLocationDegrees, longitudeValue: CLLocationDegrees, span: Double, title strTitle: String, subtitle strSubtitle: String){
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = goLocation(latitudeValue: latitudeValue, longitudeValue: longitudeValue, delta: span)
+        annotation.title = strTitle
+        annotation.subtitle = strSubtitle
+        myMap.addAnnotation(annotation)
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -64,9 +70,22 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.stopUpdatingLocation()
     }
     
-    func setAnnotation(latitudeValue: CLLocationDegrees, delta span: Double, title strTitle: String, subtitle strSubtitle: String){
-        
-    }
+    @IBAction func sgChangeLocation(_ sender: UISegmentedControl) {
+            if sender.selectedSegmentIndex == 0 {
+                self.lblLocationInfo1.text = ""
+                self.lblLocationInfo2.text = ""
+                locationManager.startUpdatingLocation()
+              
+            } else if sender.selectedSegmentIndex == 1 {
+                setAnnotation(latitudeValue: 35.679084, longitudeValue: 127.269534, span: 1, title: "우리집", subtitle: "전라북도 임실군 관촌면 사선1길 70-20")
+                self.lblLocationInfo1.text = "보고 계신 위치"
+                self.lblLocationInfo2.text = "우리집"
+            } else if sender.selectedSegmentIndex == 2 {
+                setAnnotation(latitudeValue: 35.160908, longitudeValue: 126.879361, span: 0.1, title: "유스퀘어", subtitle: "광천터미널")
+                self.lblLocationInfo1.text = "보고 계신 위치"
+                self.lblLocationInfo2.text = "유스퀘어"
+            }
+        }
 
 }
 
