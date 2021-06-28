@@ -45,6 +45,5 @@ class ViewController: UIViewController {
             view.backgroundColor = UIColor.white
         }
     }
-    
 }
 
