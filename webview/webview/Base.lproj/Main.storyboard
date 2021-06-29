@@ -22,7 +22,7 @@
                                 <segments>
                                     <segment title="현재위치"/>
                                     <segment title="우리집"/>
-                                    <segment title="광소마"/>
+                                    <segment title="유스퀘어"/>
                                 </segments>
                                 <connections>
                                     <action selector="sgChangeLocation:" destination="BYZ-38-t0r" eventType="valueChanged" id="isc-Bx-Fkq"/>
