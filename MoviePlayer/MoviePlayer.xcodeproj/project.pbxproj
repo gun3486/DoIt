@@ -13,6 +13,10 @@
 		98BABA82268B39330038716C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BABA80268B39330038716C /* Main.storyboard */; };
 		98BABA84268B39340038716C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98BABA83268B39340038716C /* Assets.xcassets */; };
 		98BABA87268B39340038716C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BABA85268B39340038716C /* LaunchScreen.storyboard */; };
+		98BABA90268B41A40038716C /* choiyena.png in Resources */ = {isa = PBXBuildFile; fileRef = 98BABA8E268B41A40038716C /* choiyena.png */; };
+		98BABA91268B41A40038716C /* joyuri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98BABA8F268B41A40038716C /* joyuri.jpg */; };
+		98BABA93268B421F0038716C /* FastTyping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98BABA92268B421F0038716C /* FastTyping.jpg */; };
+		98BABA95268B42AB0038716C /* Fireworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98BABA94268B42AB0038716C /* Fireworks.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,11 @@
 		98BABA83268B39340038716C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98BABA86268B39340038716C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98BABA88268B39340038716C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98BABA8E268B41A40038716C /* choiyena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = choiyena.png; sourceTree = "<group>"; };
+		98BABA8F268B41A40038716C /* joyuri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joyuri.jpg; sourceTree = "<group>"; };
+		98BABA92268B421F0038716C /* FastTyping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FastTyping.jpg; sourceTree = "<group>"; };
+		98BABA94268B42AB0038716C /* Fireworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks.jpg; sourceTree = "<group>"; };
+		98BABA96268B44E00038716C /* FastTyping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FastTyping.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,11 @@
 		98BABA79268B39330038716C /* MoviePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				98BABA92268B421F0038716C /* FastTyping.jpg */,
+				98BABA96268B44E00038716C /* FastTyping.mp4 */,
+				98BABA94268B42AB0038716C /* Fireworks.jpg */,
+				98BABA8F268B41A40038716C /* joyuri.jpg */,
+				98BABA8E268B41A40038716C /* choiyena.png */,
 				98BABA7A268B39330038716C /* AppDelegate.swift */,
 				98BABA7C268B39330038716C /* SceneDelegate.swift */,
 				98BABA7E268B39330038716C /* ViewController.swift */,
@@ -124,9 +138,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98BABA90268B41A40038716C /* choiyena.png in Resources */,
 				98BABA87268B39340038716C /* LaunchScreen.storyboard in Resources */,
+				98BABA93268B421F0038716C /* FastTyping.jpg in Resources */,
 				98BABA84268B39340038716C /* Assets.xcassets in Resources */,
+				98BABA95268B42AB0038716C /* Fireworks.jpg in Resources */,
 				98BABA82268B39330038716C /* Main.storyboard in Resources */,
+				98BABA91268B41A40038716C /* joyuri.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
