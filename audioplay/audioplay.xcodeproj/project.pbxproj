@@ -13,6 +13,8 @@
 		98BABA3C268AB4BF0038716C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BABA3A268AB4BF0038716C /* Main.storyboard */; };
 		98BABA3E268AB4C00038716C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98BABA3D268AB4C00038716C /* Assets.xcassets */; };
 		98BABA41268AB4C00038716C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BABA3F268AB4C00038716C /* LaunchScreen.storyboard */; };
+		98BABA4B268ACA320038716C /* IZ ONE (아이즈원) - Secret Story of the Swan (환상동화) [HAN ROM ENG Color Coded Lyrics].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98BABA4A268ACA320038716C /* IZ ONE (아이즈원) - Secret Story of the Swan (환상동화) [HAN ROM ENG Color Coded Lyrics].mp3 */; };
+		98BABA4D268B00D50038716C /* IZ ONE 아이즈원   Parallel Universe (평행우주)   Lyrics (ColorCoded ENG HAN ROM 가사).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98BABA4C268B00D50038716C /* IZ ONE 아이즈원   Parallel Universe (평행우주)   Lyrics (ColorCoded ENG HAN ROM 가사).mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		98BABA3D268AB4C00038716C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98BABA40268AB4C00038716C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98BABA42268AB4C00038716C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98BABA4A268ACA320038716C /* IZ ONE (아이즈원) - Secret Story of the Swan (환상동화) [HAN ROM ENG Color Coded Lyrics].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "IZ ONE (아이즈원) - Secret Story of the Swan (환상동화) [HAN ROM ENG Color Coded Lyrics].mp3"; sourceTree = "<group>"; };
+		98BABA4C268B00D50038716C /* IZ ONE 아이즈원   Parallel Universe (평행우주)   Lyrics (ColorCoded ENG HAN ROM 가사).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "IZ ONE 아이즈원   Parallel Universe (평행우주)   Lyrics (ColorCoded ENG HAN ROM 가사).mp3"; path = "../../../../../Desktop/IZ ONE 아이즈원   Parallel Universe (평행우주)   Lyrics (ColorCoded ENG HAN ROM 가사).mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		98BABA33268AB4BF0038716C /* audioplay */ = {
 			isa = PBXGroup;
 			children = (
+				98BABA4C268B00D50038716C /* IZ ONE 아이즈원   Parallel Universe (평행우주)   Lyrics (ColorCoded ENG HAN ROM 가사).mp3 */,
+				98BABA4A268ACA320038716C /* IZ ONE (아이즈원) - Secret Story of the Swan (환상동화) [HAN ROM ENG Color Coded Lyrics].mp3 */,
 				98BABA34268AB4BF0038716C /* AppDelegate.swift */,
 				98BABA36268AB4BF0038716C /* SceneDelegate.swift */,
 				98BABA38268AB4BF0038716C /* ViewController.swift */,
@@ -124,7 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98BABA4B268ACA320038716C /* IZ ONE (아이즈원) - Secret Story of the Swan (환상동화) [HAN ROM ENG Color Coded Lyrics].mp3 in Resources */,
 				98BABA41268AB4C00038716C /* LaunchScreen.storyboard in Resources */,
+				98BABA4D268B00D50038716C /* IZ ONE 아이즈원   Parallel Universe (평행우주)   Lyrics (ColorCoded ENG HAN ROM 가사).mp3 in Resources */,
 				98BABA3E268AB4C00038716C /* Assets.xcassets in Resources */,
 				98BABA3C268AB4BF0038716C /* Main.storyboard in Resources */,
 			);
