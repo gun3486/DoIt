@@ -10,6 +10,9 @@
 		980BADC7268E9AAC0005C2AF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980BADC6268E9AAC0005C2AF /* TableViewController.swift */; };
 		980BADC9268E9AEA0005C2AF /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980BADC8268E9AEA0005C2AF /* AddViewController.swift */; };
 		980BADCB268E9B090005C2AF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980BADCA268E9B090005C2AF /* DetailViewController.swift */; };
+		980BADCF268E9FF60005C2AF /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 980BADCC268E9FF60005C2AF /* clock.png */; };
+		980BADD0268E9FF60005C2AF /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 980BADCD268E9FF60005C2AF /* cart.png */; };
+		980BADD1268E9FF60005C2AF /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 980BADCE268E9FF60005C2AF /* pencil.png */; };
 		9866D61F268DDF9600281E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866D61E268DDF9600281E6B /* AppDelegate.swift */; };
 		9866D621268DDF9600281E6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866D620268DDF9600281E6B /* SceneDelegate.swift */; };
 		9866D626268DDF9600281E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9866D624268DDF9600281E6B /* Main.storyboard */; };
@@ -21,6 +24,9 @@
 		980BADC6268E9AAC0005C2AF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		980BADC8268E9AEA0005C2AF /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		980BADCA268E9B090005C2AF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		980BADCC268E9FF60005C2AF /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		980BADCD268E9FF60005C2AF /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		980BADCE268E9FF60005C2AF /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
 		9866D61B268DDF9600281E6B /* MiniToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9866D61E268DDF9600281E6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9866D620268DDF9600281E6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 		9866D61D268DDF9600281E6B /* MiniToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				980BADCD268E9FF60005C2AF /* cart.png */,
+				980BADCC268E9FF60005C2AF /* clock.png */,
+				980BADCE268E9FF60005C2AF /* pencil.png */,
 				9866D61E268DDF9600281E6B /* AppDelegate.swift */,
 				980BADCA268E9B090005C2AF /* DetailViewController.swift */,
 				980BADC8268E9AEA0005C2AF /* AddViewController.swift */,
@@ -130,6 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980BADD1268E9FF60005C2AF /* pencil.png in Resources */,
+				980BADCF268E9FF60005C2AF /* clock.png in Resources */,
+				980BADD0268E9FF60005C2AF /* cart.png in Resources */,
 				9866D62B268DDF9700281E6B /* LaunchScreen.storyboard in Resources */,
 				9866D628268DDF9700281E6B /* Assets.xcassets in Resources */,
 				9866D626268DDF9600281E6B /* Main.storyboard in Resources */,
